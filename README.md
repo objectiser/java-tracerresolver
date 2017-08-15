@@ -4,10 +4,10 @@
 # java-tracerresolver
 Resolver API for OpenTracing Tracer implementations.
 
-NOTE: The Tracer Resolver mechanism is only intended to be used at application startup/initialization time. This responsibility
-should be handled by the application, possibly using some runtime specific support (e.g. providing a
-Tracer @Bean in Spring Boot, or a CDI producer). Framework integrations used to instrument specific technologies used
-by an application should not use this library.
+**NOTE:** The Tracer Resolver mechanism is only intended to be used at application startup/initialization time.
+This responsibility should be handled by the application, possibly using some runtime specific support (e.g. providing a
+Tracer `@Bean` in Spring Boot, or a CDI producer).
+Framework integrations used to instrument specific technologies used by an application should **not** use this library.
 
 
 ## TracerResolver
